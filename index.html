@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Section</title>
+  <link rel="stylesheet" href="sass/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+    
+    
+    <header>
+        <a class="logo" href="#"><img src="Rest/white-logo.png" alt="logo"></a>
+
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+
+        <div class="button">
+            <a href="#"><button>Reservation</button></a>
+            <div class="fa-solid fa-bars" onclick="toggleMenu()" id="menu"></div>
+        </div>
+
+    </header>
+
+    <!-- home-section -->
+    
+    <section class="home">
+        <div class="home-content">
+            <h4>Eat Sleep And Repeat</h4>
+            <h1>Supper delicious <br> Burger in Town!</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit itaque accusamus recusandae,
+                labore.</p>
+
+            <div class="button">
+            <a href="#"><button>Book a Table</button></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="Rest/burger-1.png" alt="burger">
+        </div>
+    </section>
+    
+    <!-- item-section -->
+    <section class="item-section">
+        <div class="item">
+            <i class="las la-hamburger"></i>
+            <h1>Burger</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <img src="Rest/burger-plate.png" alt="burger">
+        </div>
+        
+        <div class="item">
+            <i class="las la-glass-cheers"></i>
+            <h1>Drinks</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <img src="Rest/drink.png" alt="drink">
+        </div>
+        
+        <div class="item">
+            <i class="las la-pizza-slice"></i>
+            <h1>Pizza</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <img src="Rest/pizza=plate.png" alt="pizza">
+        </div>
+        
+        <div class="item">
+            <i class="las la-ice-cream"></i>
+            <h1>Deserts</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <img src="Rest/ice-cream plate.png" alt="ice-cream">
+        </div>
+    </section>
+
+    <!-- offer-section-1 -->
+    <section class="offer-section-1">
+        <img src="Rest/burger-drink.png" alt="offer">
+
+        <div class="offer-content-1">
+            <h1>Foodie Haven: Unmatched Burgers & Pizzas <span>at Zinnia!</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum rem ipsam quae voluptates temporibus aspernatur vitae autem magni iure quam temporibus aspernatur vitae autem magni iure quam?</p>
+            <ul>
+                <li><span><i class="fa-solid fa-circle-check"></i></span>Lorem ipsum dolor sit.</li>
+                <li><span><i class="fa-solid fa-circle-check"></i></span>Lorem ipsum dolor sit.</li>
+                <li><span><i class="fa-solid fa-circle-check"></i></span>Lorem ipsum dolor sit.</li>
+                <li><span><i class="fa-solid fa-circle-check"></i></span>Lorem ipsum dolor sit.</li>
+            </ul>
+            <a href="#"><button>Order Now</button></a>
+        </div>
+    </section>
+
+    <!-- review-section -->
+    <section class="review-section">
+        
+        <h3 id="head">Testimonials</h3>
+        <h1 id="head-1">Our Customers <span>Reviews</span></h1>
+        <p id="tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore ullam</p>
+        
+        <div class="review-flex">
+            
+            <div class="review">
+            
+                <div class="user">
+                    <img src="Rest/avatar.jpg" alt="user">
+                    <p id="name">John Doe</p>
+                </div>
+            
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, laborum."</p>
+                <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                
+            </div>
+            
+            <div class="review">
+            
+                <div class="user">
+                    <img src="Rest/avatar.jpg" alt="user">
+                    <p id="name">John Doe</p>
+                </div>                
+            
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, laborum."</p>
+                <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+
+            </div>
+            
+            <div class="review">
+                
+                <div class="user">
+                    <img src="Rest/avatar.jpg" alt="user">
+                    <p id="name">John Doe</p>
+                </div>
+            
+                <p >"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, laborum."</p>
+                <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+
+            </div>
+        
+        </div>
+    </section>
+
+
+    <!-- offer-section-2 -->
+    <section class="offer-section-2">
+        
+        <div class="main-div">
+            
+            <div class="left-div">
+                <div class="content">
+                    <h1>50% Off Now!<br> Tasty Spaghetti</h1>
+                    <p>Sale Off 50% only this week</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            
+            <div class="right-divs">
+                
+                <div class="top-right-divs">
+                
+                    <div class="top-div-1">
+                        <h1>Delicious Burger</h1>
+                        <p>50% Off Now</p>
+                        <button>Order Now</button>
+                    </div>
+                
+                    <div class="top-div-2">
+                        <h1>Cool Beverages</h1>
+                        <p>50% Off Now</p>
+                        <button>Order Now</button>
+                    </div>
+                
+                </div>
+                
+                <div class="bottom-div">
+                    <h1>Tasty Buzzed Pizza</h1>
+                    <p>50% Off Now</p>
+                    <button>Order Now</button>
+                </div>
+            
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- footer-section -->
+    <section class="footer-section" id="contact-us">
+
+        <div class="footer-flex">
+        
+            <div class="footer-details">
+                <h1>Zinnia</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-square-instagram"></i></a>
+
+                <h3>Opening Hours</h3>
+
+                <ul>
+                    <li>Monday-Friday: 10:00 - 22:00</li>
+                    <li>Tuesday: 10:00AM - 16:00</li>
+                    <li>Saturday-Sunday: 13:00 - 23:00</li>
+                </ul>
+
+            </div>
+        
+            <div class="contact-details">
+                
+                <h1 id="contact">Contact info</h1>
+                <ul class="details">
+                    <li>+91-83590 03000</li>
+                    <li>info@zinnia.restaurant</li>
+                    <li>1st and 2nd floor, SCS 23 Sector 10D, Chandigarh</li>
+                </ul>
+
+                <div class="book-form">
+                    <h1>Book a Table</h1>
+
+                    <form action="">
+
+                        <input type="text" required placeholder="Your Name">
+                        <input type="email" required placeholder="Email"><br>
+                        <input type="number" required placeholder="Person">
+                        <input type="date" required placeholder="Date"><br>
+                        <textarea placeholder="Message" id="" cols="51" rows="5"></textarea><br>
+                        <button>Book a Table</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<script src="JS/main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+  
+</html>
